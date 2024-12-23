@@ -1,7 +1,7 @@
-import React, { useState } from "react"
-import Header from "./Header"
-import FighterList from "./FighterList"
-import TeamList from "./TeamList"
+import { useState } from "react"
+import Header from "./components/Header"
+import FighterList from "./components/FighterList"
+import TeamList from "./components/TeamList"
 
 const App = () => {
   const [team, setTeam] = useState([])

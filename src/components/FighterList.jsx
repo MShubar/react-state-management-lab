@@ -1,5 +1,3 @@
-import React from "react"
-
 const FighterList = ({ zombieFighters, handleAddFighter }) => {
   return (
     <div>
